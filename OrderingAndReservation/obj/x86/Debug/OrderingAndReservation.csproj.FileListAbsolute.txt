@@ -1,0 +1,13 @@
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\OrderingAndReservation.exe
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\OrderingAndReservation.pdb
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.Properties.Resources.resources
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.csproj.GenerateResource.Cache
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.exe
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.pdb
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.csprojResolveAssemblyReference.cache
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.frmMain.resources
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.frmLogin.resources
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.frmOrder.resources
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.frmInfo.resources
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\Ordering.accdb
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\OrderingAndReservation.exe.config
