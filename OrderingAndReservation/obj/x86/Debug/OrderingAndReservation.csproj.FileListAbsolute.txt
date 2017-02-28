@@ -11,3 +11,7 @@ C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\Ord
 C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.frmInfo.resources
 C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\Ordering.accdb
 C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\OrderingAndReservation.exe.config
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\MySql.Data.dll
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\bin\Debug\MySql.Data.xml
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.lastOrdered.resources
+C:\Users\Paully\Documents\Visual Studio 2010\Projects\OrderingAndReservation\OrderingAndReservation\obj\x86\Debug\OrderingAndReservation.ReportSales.resources

@@ -35,6 +35,17 @@
             this.lblWc = new System.Windows.Forms.Label();
             this.lblBw = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblcRefill = new System.Windows.Forms.Label();
+            this.lblcSquare = new System.Windows.Forms.Label();
+            this.lblcCircle = new System.Windows.Forms.Label();
+            this.lblc1 = new System.Windows.Forms.Label();
+            this.lblc500 = new System.Windows.Forms.Label();
+            this.lblc350 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.lblCart = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnCheck = new System.Windows.Forms.Button();
@@ -55,21 +66,16 @@
             this.btnCircle = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.lblc350 = new System.Windows.Forms.Label();
-            this.lblc500 = new System.Windows.Forms.Label();
-            this.lblc1 = new System.Windows.Forms.Label();
-            this.lblcCircle = new System.Windows.Forms.Label();
-            this.lblcSquare = new System.Windows.Forms.Label();
-            this.lblcRefill = new System.Windows.Forms.Label();
             this.gbxRefill = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.btnRefill = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.gbxBottled.SuspendLayout();
@@ -80,6 +86,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.gbxRefill.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -177,6 +189,128 @@
             this.panel3.Size = new System.Drawing.Size(159, 327);
             this.panel3.TabIndex = 3;
             // 
+            // lblcRefill
+            // 
+            this.lblcRefill.BackColor = System.Drawing.Color.Transparent;
+            this.lblcRefill.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcRefill.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblcRefill.Location = new System.Drawing.Point(4, 255);
+            this.lblcRefill.Name = "lblcRefill";
+            this.lblcRefill.Size = new System.Drawing.Size(35, 41);
+            this.lblcRefill.TabIndex = 20;
+            this.lblcRefill.Text = "0";
+            // 
+            // lblcSquare
+            // 
+            this.lblcSquare.BackColor = System.Drawing.Color.Transparent;
+            this.lblcSquare.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcSquare.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblcSquare.Location = new System.Drawing.Point(4, 188);
+            this.lblcSquare.Name = "lblcSquare";
+            this.lblcSquare.Size = new System.Drawing.Size(35, 41);
+            this.lblcSquare.TabIndex = 19;
+            this.lblcSquare.Text = "0";
+            // 
+            // lblcCircle
+            // 
+            this.lblcCircle.BackColor = System.Drawing.Color.Transparent;
+            this.lblcCircle.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcCircle.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblcCircle.Location = new System.Drawing.Point(4, 120);
+            this.lblcCircle.Name = "lblcCircle";
+            this.lblcCircle.Size = new System.Drawing.Size(35, 41);
+            this.lblcCircle.TabIndex = 18;
+            this.lblcCircle.Text = "0";
+            // 
+            // lblc1
+            // 
+            this.lblc1.BackColor = System.Drawing.Color.Transparent;
+            this.lblc1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblc1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblc1.Location = new System.Drawing.Point(4, 79);
+            this.lblc1.Name = "lblc1";
+            this.lblc1.Size = new System.Drawing.Size(35, 41);
+            this.lblc1.TabIndex = 17;
+            this.lblc1.Text = "0";
+            // 
+            // lblc500
+            // 
+            this.lblc500.BackColor = System.Drawing.Color.Transparent;
+            this.lblc500.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblc500.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblc500.Location = new System.Drawing.Point(3, 41);
+            this.lblc500.Name = "lblc500";
+            this.lblc500.Size = new System.Drawing.Size(35, 41);
+            this.lblc500.TabIndex = 16;
+            this.lblc500.Text = "0";
+            // 
+            // lblc350
+            // 
+            this.lblc350.BackColor = System.Drawing.Color.Transparent;
+            this.lblc350.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblc350.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblc350.Location = new System.Drawing.Point(4, 0);
+            this.lblc350.Name = "lblc350";
+            this.lblc350.Size = new System.Drawing.Size(34, 41);
+            this.lblc350.TabIndex = 15;
+            this.lblc350.Text = "0";
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label11.Location = new System.Drawing.Point(41, 255);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 24);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "x Refill";
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label10.Location = new System.Drawing.Point(38, 188);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(120, 68);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "x Water \r\nContainer Square";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label9.Location = new System.Drawing.Point(37, 120);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(120, 68);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "x Water \r\nContainer Circle";
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label8.Location = new System.Drawing.Point(38, 79);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(120, 68);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "x 1L\r\nBottle Water";
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.Location = new System.Drawing.Point(37, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 68);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "x 500mL \r\nBottle Water";
+            // 
             // lblCart
             // 
             this.lblCart.BackColor = System.Drawing.Color.Transparent;
@@ -199,6 +333,7 @@
             this.lblTotal.TabIndex = 8;
             this.lblTotal.Text = "Total: 0.00";
             this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTotal.Click += new System.EventHandler(this.lblTotal_Click);
             // 
             // btnCheck
             // 
@@ -411,128 +546,6 @@
             this.pictureBox6.TabIndex = 14;
             this.pictureBox6.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(37, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 68);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "x 500mL \r\nBottle Water";
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Location = new System.Drawing.Point(38, 79);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 68);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "x 1L\r\nBottle Water";
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label9.Location = new System.Drawing.Point(37, 120);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 68);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "x Water \r\nContainer Circle";
-            // 
-            // label10
-            // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Location = new System.Drawing.Point(38, 188);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(120, 68);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "x Water \r\nContainer Square";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label11.Location = new System.Drawing.Point(41, 255);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(120, 24);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "x Refill";
-            // 
-            // lblc350
-            // 
-            this.lblc350.BackColor = System.Drawing.Color.Transparent;
-            this.lblc350.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblc350.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblc350.Location = new System.Drawing.Point(4, 0);
-            this.lblc350.Name = "lblc350";
-            this.lblc350.Size = new System.Drawing.Size(35, 41);
-            this.lblc350.TabIndex = 15;
-            this.lblc350.Text = "0";
-            // 
-            // lblc500
-            // 
-            this.lblc500.BackColor = System.Drawing.Color.Transparent;
-            this.lblc500.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblc500.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblc500.Location = new System.Drawing.Point(3, 41);
-            this.lblc500.Name = "lblc500";
-            this.lblc500.Size = new System.Drawing.Size(35, 41);
-            this.lblc500.TabIndex = 16;
-            this.lblc500.Text = "0";
-            // 
-            // lblc1
-            // 
-            this.lblc1.BackColor = System.Drawing.Color.Transparent;
-            this.lblc1.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblc1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblc1.Location = new System.Drawing.Point(4, 79);
-            this.lblc1.Name = "lblc1";
-            this.lblc1.Size = new System.Drawing.Size(35, 41);
-            this.lblc1.TabIndex = 17;
-            this.lblc1.Text = "0";
-            // 
-            // lblcCircle
-            // 
-            this.lblcCircle.BackColor = System.Drawing.Color.Transparent;
-            this.lblcCircle.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcCircle.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblcCircle.Location = new System.Drawing.Point(4, 120);
-            this.lblcCircle.Name = "lblcCircle";
-            this.lblcCircle.Size = new System.Drawing.Size(35, 41);
-            this.lblcCircle.TabIndex = 18;
-            this.lblcCircle.Text = "0";
-            // 
-            // lblcSquare
-            // 
-            this.lblcSquare.BackColor = System.Drawing.Color.Transparent;
-            this.lblcSquare.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcSquare.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblcSquare.Location = new System.Drawing.Point(4, 188);
-            this.lblcSquare.Name = "lblcSquare";
-            this.lblcSquare.Size = new System.Drawing.Size(35, 41);
-            this.lblcSquare.TabIndex = 19;
-            this.lblcSquare.Text = "0";
-            // 
-            // lblcRefill
-            // 
-            this.lblcRefill.BackColor = System.Drawing.Color.Transparent;
-            this.lblcRefill.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcRefill.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblcRefill.Location = new System.Drawing.Point(4, 255);
-            this.lblcRefill.Name = "lblcRefill";
-            this.lblcRefill.Size = new System.Drawing.Size(35, 41);
-            this.lblcRefill.TabIndex = 20;
-            this.lblcRefill.Text = "0";
-            // 
             // gbxRefill
             // 
             this.gbxRefill.BackColor = System.Drawing.Color.Black;
@@ -578,12 +591,90 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(886, 18);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 25;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Visible = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(886, 59);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 26;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Visible = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(886, 138);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 27;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(887, 97);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 28;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(887, 206);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 29;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Visible = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(886, 273);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 30;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Visible = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
+            // 
             // frmOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Cyan;
-            this.ClientSize = new System.Drawing.Size(896, 400);
+            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.ClientSize = new System.Drawing.Size(922, 400);
+            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gbxRefill);
             this.Controls.Add(this.gbxContainer);
@@ -591,6 +682,7 @@
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmOrder";
             this.Text = "CountrySide Water Station";
             this.Load += new System.EventHandler(this.frmOrder_Load);
@@ -605,6 +697,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.gbxRefill.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -652,5 +750,11 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnRefill;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
     }
 }

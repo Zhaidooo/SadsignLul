@@ -46,6 +46,7 @@
             this.txtDate = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.txtBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -140,9 +141,12 @@
             // txtContact
             // 
             this.txtContact.Location = new System.Drawing.Point(200, 200);
+            this.txtContact.MaxLength = 11;
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(219, 20);
             this.txtContact.TabIndex = 3;
+            this.txtContact.TextChanged += new System.EventHandler(this.txtContact_TextChanged);
+            this.txtContact.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Contact_Keypress);
             // 
             // txtAddress
             // 
@@ -196,7 +200,7 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(183, 463);
+            this.btnSubmit.Location = new System.Drawing.Point(304, 466);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(115, 34);
             this.btnSubmit.TabIndex = 4;
@@ -206,7 +210,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(304, 463);
+            this.btnClear.Location = new System.Drawing.Point(183, 466);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(115, 34);
             this.btnClear.TabIndex = 5;
@@ -214,12 +218,23 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // frmInfo
+            // txtBack
+            // 
+            this.txtBack.Location = new System.Drawing.Point(62, 466);
+            this.txtBack.Name = "txtBack";
+            this.txtBack.Size = new System.Drawing.Size(115, 34);
+            this.txtBack.TabIndex = 15;
+            this.txtBack.Text = "Back";
+            this.txtBack.UseVisualStyleBackColor = true;
+            this.txtBack.Click += new System.EventHandler(this.txtBack_Click);
+            // 
+            // FrmInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(431, 552);
+            this.Controls.Add(this.txtBack);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.txtDate);
@@ -237,6 +252,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FrmInfo";
             this.Text = "Information";
             this.Load += new System.EventHandler(this.frmInfo_Load);
@@ -264,5 +280,6 @@
         private System.Windows.Forms.TextBox txtDate;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button txtBack;
     }
 }

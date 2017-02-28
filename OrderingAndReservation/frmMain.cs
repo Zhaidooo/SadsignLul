@@ -26,6 +26,7 @@ namespace OrderingAndReservation
         {
             lblHome.BackColor = Color.Cyan;
             lblHome.ForeColor = Color.White;
+            
         }
 
         private void Home_Leave(object sender, EventArgs e)
@@ -122,5 +123,18 @@ namespace OrderingAndReservation
             this.Hide();
         }
 
+        private void lblLast_Click(object sender, EventArgs e)
+        {
+            lastOrdered lo = new lastOrdered();
+            lo.Show();
+            this.Hide();
+        }
+
+        private void lblSales_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReportSales rs = new ReportSales();
+            rs.Show();
+        }
     }
 }
